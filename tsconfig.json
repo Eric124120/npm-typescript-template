@@ -7,5 +7,5 @@
         "strict": true
     },
     "include": ["src"],
-    "exclude": ["node_modules", "**/__tests__/*"] // 不编译 node_modules 和 __tests__ 文件夹，因为他们只在开发时使用
+    "exclude": ["node_modules", "test/*"] // 不编译 node_modules 和 test 文件夹，因为他们只在开发时使用
 }
