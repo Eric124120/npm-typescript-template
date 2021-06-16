@@ -1,0 +1,30 @@
+{
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "http.proxyAuthorization": null,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": null,
+        // "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            // For ESLint
+            "source.fixAll.eslint": true
+        }
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": null,
+        // "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            // For ESLint
+            "source.fixAll.eslint": true
+        }
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": null,
+        // "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            // For ESLint
+            "source.fixAll.eslint": true
+        }
+    },
+}
