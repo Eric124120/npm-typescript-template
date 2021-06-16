@@ -5,7 +5,7 @@
 直接git clone仓库下来使用。
 npm publish 构造
 命令|操作|备注
---|:--:|--:
+--|:--:|--
 prepare|npm run build|在打包和发布之前运行，适合build
 prepublishOnly|npm test && npm run lint|在 prepare 之前，并且只有 npm publish 时才运行，这里应该执行测试和lint，保证我们不会发布不好的代码
 preversion|npm run lint|在新建 tag 之前运行
